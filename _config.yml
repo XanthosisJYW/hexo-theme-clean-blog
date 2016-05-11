@@ -2,6 +2,9 @@
 menu:
   Home: /
   Archives: /archives
+  Github:
+    url: https://github.com/klugjo/hexo-theme-clean-blog
+    icon: github
 
 # Title on top left of menu. Leave empty to use main blog title
 menu_title: Configurable Title
