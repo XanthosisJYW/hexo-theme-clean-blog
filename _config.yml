@@ -28,6 +28,9 @@ comments:
 # Google Analytics Tracking ID
 google_analytics:
 
+# Addthis ID
+addthis:
+
 # Social Accounts
 twitter_url:
 facebook_url:
