@@ -10,6 +10,7 @@ Clean blog is a full featured, responsive Hexo theme. [Demo here](http://www.cod
 
 - Disqus and Facebook comments
 - Google Analytics
+- Addthis
 - Cover image for posts and pages
 - Tags and Categories Support
 - Responsive Images
@@ -48,9 +49,12 @@ The menu is configured in the theme's `_config.yml`.
 menu:
   Home: /
   Archives: /archives
+  Github:
+    url: https://github.com/klugjo/hexo-theme-clean-blog
+    icon: github
 ```
 
-The object key is the label and the value is the path.
+The object key is the label and the value is the path, or you can use a icon (font awesome) like menu item.
 
 ### Top Left Label
 
@@ -95,6 +99,13 @@ comments:
     comment_colorscheme: light
 ```
 
+You can too hide the comment in the posts front-matter:
+
+```
+comment: false
+---
+```
+
 ### Google Analytics
 
 The Google Analytics Tracking ID is configured in the theme's `_config.yml`.
@@ -102,6 +113,15 @@ The Google Analytics Tracking ID is configured in the theme's `_config.yml`.
 ```
 # Google Analytics Tracking ID
 google_analytics:
+```
+
+### Addthis
+
+The Addthis ID is configured in the theme's `_config.yml`.
+
+```
+# Addthis ID
+addthis:
 ```
 
 ### Social Account
@@ -113,6 +133,8 @@ Setup the links to your social pages in the theme's `_config.yml`. Links are in 
 twitter_url:
 facebook_url:
 github_url: https://github.com/klugjo/hexo-theme-clean-blog
+linkedin_url:
+mailto:
 ```
 
 ### Author
@@ -133,6 +155,15 @@ title: Excerpts
 date: 2013-12-25 00:23:23
 tags: ["Excertps"]
 cover: /assets/contact-bg.jpg
+---
+```
+
+### Post's Share Cover Image
+
+You can specify a custom cover to share yours posts in social medias:
+
+```
+share_cover: /assets/contact-bg.jpg
 ---
 ```
 
