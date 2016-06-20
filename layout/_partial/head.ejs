@@ -30,7 +30,7 @@
     <!--Open Graph Description-->
     <% if (page.description){ %>
         <meta property="og:description" content="<%= page.description %>" />
-    <% } else { %>
+    <% } else if (config.description) { %>
         <meta property="og:description" content="<%= config.description %>" />
     <% } %>
 
@@ -45,9 +45,9 @@
     <% } %>
 
     <!--Page Cover-->
-    <% if(page.share_cover) { %>
+    <% if (page.share_cover) { %>
         <meta property="og:image" content="<%= config.url %><%= page.share_cover %>" />
-    <% } else { %>
+    <% } else if (config.cover) { %>
         <meta property="og:image" content="<%= config.url %><%= config.cover %>"/>
     <% } %>
 
