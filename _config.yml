@@ -31,6 +31,9 @@ google_analytics:
 # Addthis ID
 addthis:
 
+# set your own favicon
+favicon:
+
 # Social Accounts
 twitter_url:
 twitter_handle:
