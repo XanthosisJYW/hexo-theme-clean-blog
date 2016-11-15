@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<%= config.language %>">
+<html<% if(config.language) { %>lang="<%= config.language %>"<% } %>>
 
 <!-- Head tag -->
 <%- partial('_partial/head') %>
