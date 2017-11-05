@@ -20,7 +20,7 @@ default_post_title: Untitled
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname:
+  disqus_shortname: xanthosisjyw.github.io
   # Facebook comments
   facebook:
     appid:
